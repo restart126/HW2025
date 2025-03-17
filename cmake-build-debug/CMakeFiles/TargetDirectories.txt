@@ -1,0 +1,3 @@
+C:/Users/24762/CLionProjects/code_competition/cmake-build-debug/CMakeFiles/code_competition.dir
+C:/Users/24762/CLionProjects/code_competition/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/24762/CLionProjects/code_competition/cmake-build-debug/CMakeFiles/rebuild_cache.dir

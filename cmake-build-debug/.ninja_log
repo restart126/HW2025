@@ -1,0 +1,6 @@
+# ninja log v5
+0	45	7633738681613192	CMakeFiles/code_competition.dir/realize/test.cpp.obj	9ae5b748b0b8eb18
+3	199	7633738683163259	CMakeFiles/code_competition.dir/main.cpp.obj	848cc2f93db65a3e
+200	254	7633738683678343	code_competition.exe	298ac34e3614858e
+2	203	7633739640044504	CMakeFiles/code_competition.dir/main.cpp.obj	848cc2f93db65a3e
+204	256	7633739640546089	code_competition.exe	298ac34e3614858e
