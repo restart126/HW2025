@@ -9,6 +9,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{1905FA44-A7DB-4E75-9270-8959FB60F80F}|solution.vcxproj|X:\\workspace\\C\u002B\u002B\\HuaWei_2025\\2025-code-craft-preliminary\\demos\\cpp\\HW_VS2022\\HW2025\\solution.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1905FA44-A7DB-4E75-9270-8959FB60F80F}|solution.vcxproj|solutionrelative:solution.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1905FA44-A7DB-4E75-9270-8959FB60F80F}|solution.vcxproj|X:\\workspace\\C\u002B\u002B\\HuaWei_2025\\2025-code-craft-preliminary\\demos\\cpp\\HW_VS2022\\HW2025\\relize\\environment.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1905FA44-A7DB-4E75-9270-8959FB60F80F}|solution.vcxproj|solutionrelative:relize\\environment.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +22,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "environment.cpp",
+              "DocumentMoniker": "X:\\workspace\\C\u002B\u002B\\HuaWei_2025\\2025-code-craft-preliminary\\demos\\cpp\\HW_VS2022\\HW2025\\relize\\environment.cpp",
+              "RelativeDocumentMoniker": "relize\\environment.cpp",
+              "ToolTip": "X:\\workspace\\C\u002B\u002B\\HuaWei_2025\\2025-code-craft-preliminary\\demos\\cpp\\HW_VS2022\\HW2025\\relize\\environment.cpp",
+              "RelativeToolTip": "relize\\environment.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-18T08:33:21.013Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,7 +45,7 @@
               "RelativeDocumentMoniker": "include\\environment.h",
               "ToolTip": "X:\\workspace\\C\u002B\u002B\\HuaWei_2025\\2025-code-craft-preliminary\\demos\\cpp\\HW_VS2022\\HW2025\\include\\environment.h",
               "RelativeToolTip": "include\\environment.h",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAABcAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-03-18T07:14:48.72Z",
               "EditorCaption": ""
@@ -41,7 +58,7 @@
               "RelativeDocumentMoniker": "solution.cpp",
               "ToolTip": "X:\\workspace\\C\u002B\u002B\\HuaWei_2025\\2025-code-craft-preliminary\\demos\\cpp\\HW_VS2022\\HW2025\\solution.cpp",
               "RelativeToolTip": "solution.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-18T07:14:50.906Z",
               "EditorCaption": ""

@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="relize\environment.cpp" />
     <ClCompile Include="solution.cpp" />
   </ItemGroup>
   <ItemGroup>

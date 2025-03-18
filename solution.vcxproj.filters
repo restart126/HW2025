@@ -18,6 +18,9 @@
     <ClCompile Include="solution.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="relize\environment.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\environment.h">
