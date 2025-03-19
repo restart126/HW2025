@@ -13,10 +13,7 @@ private:
     int size = zone_size, position, id;// 
     vector<vector<int>> message;//用来存放数据的id、相对位置和大小
 public:
-    Zone(const int& begin, const int& idx) {
-        position = begin;
-        id = idx;
-    }
+    Zone(int zone_id, int zone_pos) :id(zone_id), position(zone_pos) {};
 };
 
 //tag块

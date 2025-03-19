@@ -1,5 +1,12 @@
 #pragma once
 #include <vector>
+#include<cmath>
+
+#define ERROR_ZONE_WRITE -1
+#define ERROR_ZONE_FOUND -2
+
+#define ALLOC_GUIDE_F -3
+#define ALLOC_GUIDE_S -4
 
 using namespace std;
 
@@ -13,12 +20,33 @@ constexpr int zone_size = 512;
 //zone块
 class Zone {
 private:
-    int size = zone_size, position, id;//zone大小、起始位置、id
-    vector<vector<int>> message;//用来存放数据的id、相对位置和大小
+    int _zone_size = zone_size, position, id;//zone大小、起始位置、id
+    //vector<vector<int>> message;//用来存放数据的id、相对位置和大小
+    vector<int> wall;
+    int hashzone_num = _zone_size / 64;
+    int strategy;
+
+    int hash_pos(int id, int size);
+    int hash_pos_end(int id, int size);
+    int next_alloc_guide();
+
+    vector<int>& to_cd;
 public:
+    vector<int> free_size;
     //初始化zone区域的起始位置和id
-    Zone(const int& begin, const int& idx) {
-    }
+    Zone(vector<int>& _cd, int zone_id, int zone_pos, int strat) :to_cd(_cd), id(zone_id), position(zone_pos), strategy(strat) {
+        if (strat == 0)
+            // 20 24 20
+            wall = { 19,43,63 };
+        else
+            // 12 32 20
+            wall = { 11,43,63 };
+        free_size = { wall[0] * hashzone_num,(wall[1] - wall[0]) * hashzone_num,(wall[2] - wall[1]) * hashzone_num };
+    };
+    int write_data(int id, int size);// 写入之后返回绝对位置
+    int get_data(int id, int size);// 返回绝对位置
+    int del_data(int id, int size);// 成功删除返回0
+    bool test_write(int size);// 测试是否还有空间写入
 };
 
 //tag块用来划分zone块
